@@ -1,0 +1,24 @@
+<div class="container_recent_card">
+    <a [routerLink]="['content', id]">
+        <div class="organizer">
+        
+            <div class="recent_card_photo">
+                <img src={{photo_recent}} alt="" >
+            </div>
+
+            <div  class="recent_card_photo_detalhes">
+                <div class="recent_card_photo_state">
+                    <p> {{dataformatada}} </p>
+                </div>
+                
+                <div class="recent_card_photo_description">
+                        <span> {{description_recent}}</span>
+                </div>
+            </div>
+        
+    </div>
+   </a>
+</div>
+
+
+

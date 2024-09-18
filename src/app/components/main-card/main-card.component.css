@@ -1,0 +1,37 @@
+.container_main_card{
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+   /* border: solid red 1px;*/
+    border:none;
+}
+
+.main_card_title h1{
+    
+    color: brown;
+    text-align: center;
+}
+
+.main_card_description p{
+    font-size: 20px;
+    color: grey;
+    margin-bottom: 0.5rem;
+}
+
+
+.main_card_photo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    width: 100%;
+}
+
+.main_card_photo img {
+   
+    width: 65%;
+    
+    object-fit: contain;
+
+}

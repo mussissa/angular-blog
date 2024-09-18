@@ -1,0 +1,19 @@
+.container_main{
+   /* border: solid;
+    color: blue;*/
+    border:none;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+.main_card{
+    width: 49%;
+}
+
+.recent_card{
+    width: 49%;
+    overflow-y: auto;
+    max-height: 500px;
+}

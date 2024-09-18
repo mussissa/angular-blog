@@ -1,0 +1,56 @@
+.container_recent_card{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+   
+}
+
+.organizer{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+   
+  
+}
+
+.recent_card_photo{
+    width: 25%;
+  
+}
+
+
+.recent_card_photo img{
+    width: 100%;
+}
+
+
+
+.recent_card_photo_detalhes{
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+}
+
+.recent_card_photo_state{
+    margin-bottom: 1rem;
+
+}
+
+
+.recent_card_photo_description {
+    border: none;
+    width: 95%;
+    word-wrap: break-word;
+
+}
+span{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+
+
+

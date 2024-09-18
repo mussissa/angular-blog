@@ -1,0 +1,117 @@
+.menubar{
+    display: flex;
+
+    font-family: Mona-Sans, Helvetica, sans-serif;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+ border:none;
+   
+}
+
+.menubar div {
+    display: flex;
+    gap: 2rem; 
+
+}
+
+.menubar p{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0.5rem;
+    width: 40%;
+}
+
+.menubar a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+   
+    
+}
+
+
+/*
+@media (max-width: 1200px) {
+    .menubar p {
+        font-size: 35px;
+    }
+
+    .menubar a {
+        font-size: 20px;
+        margin-left: 1rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .menubar {
+        flex-direction: column; /* Muda a direção do flex para coluna 
+        align-items: flex-start; /* Alinha itens ao início 
+    }
+
+    .menubar p {
+        font-size: 30px;
+    }
+
+    .menubar a {
+        font-size: 18px;
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .menubar p {
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menubar a {
+        font-size: 16px;
+        margin-top: 0.5rem;
+    }
+}
+
+*/
+
+
+@media (max-width: 1084px) {
+    .menubar {
+        flex-direction: column; /* Layout vertical para tablets */
+        align-items: flex-start; /* Alinha itens à esquerda */
+    }
+
+    .menubar p {
+        font-size: 32px; /* Reduz o tamanho da fonte para tablets */
+        width: 100%; /* Ocupa toda a largura disponível */
+    }
+
+    .menubar a {
+        font-size: 20px; /* Reduz o tamanho da fonte dos links */
+        margin-left: 0; /* Remove a margem esquerda para links */
+        margin-top: 1rem; /* Adiciona espaço entre os links */
+    }
+}
+
+/* Media Query para telas de dispositivos móveis */
+@media (max-width: 768px) {
+    .menubar {
+        flex-direction: column; /* Layout vertical para dispositivos móveis */
+        align-items: center; /* Alinha itens ao centro */
+    }
+
+    .menubar p {
+        font-size: 24px; /* Reduz ainda mais o tamanho da fonte */
+        width: 100%; /* Ocupa toda a largura disponível */
+        text-align: center; /* Alinha o texto ao centro */
+    }
+
+    .menubar a {
+        font-size: 18px; /* Reduz o tamanho da fonte dos links */
+        margin-left: 0; /* Remove a margem esquerda para links */
+        margin-top: 0.5rem; /* Adiciona espaço entre os links */
+    }
+}

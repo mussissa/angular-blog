@@ -1,0 +1,54 @@
+/*.container_tops_card{
+   /* border: solid 1px violet;
+  border:none;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}*/
+
+.tops_card_title p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+
+/*.container_tops_card_main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}*/
+
+.tops_card_main{
+    border: none;
+   /* border: 1px solid orange;*/
+   width: 100%;
+   margin: 0.2rem;
+   display: flex;
+   flex-direction: column;
+   margin-left: 1rem;
+ 
+}
+
+
+.tops_card_photo {
+
+    width: 100%;
+    max-width: 250px; /* Ajuste este valor conforme necessário */
+    height: 180px; /* Defina uma altura fixa */
+    
+}
+
+
+
+.tops_card_photo img {
+    width: 100%; /* Faz com que a imagem se ajuste ao container */
+    height: 100%; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Faz com que a imagem cubra o container sem distorcer */
+
+}
+
+
+.tops_card_describe{
+    margin-bottom: 0.3rem;
+}
